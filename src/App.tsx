@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+import StartPage from './pages/startPage';
 import './App.css';
+import backgroundSvg from './assets/background.svg';
 
 function App() {
   return (
-    <div className="App">
-     EXARBETE
-    </div>
+  <div className="App">
+      <StartPage />
+  </div>
   );
 }
 
